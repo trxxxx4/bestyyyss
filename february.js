@@ -3,9 +3,9 @@ function revealFunction(){
         duration: 1250,  reset: true
     });
     sr.reveal('header', {origin: 'left', distance: '250px', reset: false});
-    sr.reveal('.title__h2__header', {origin:'right', distance: '350px'});
+    sr.reveal('.title__h2__header', {origin:'right', distance: '350px', delay: 700});
     sr.reveal('.title__h2__footer', {origin:'left', distance: '300px'});
-    sr.reveal('.citate', {origin: 'bottom', distance:'200px'});
+    sr.reveal('.citate', {origin: 'bottom', distance:'200px', delay: 200});
     sr.reveal('.text__title', {origin: 'bottom', distance:'250px'});
     sr.reveal('.text__p', {origin: 'right', distance:'270px'});
     sr.reveal('#photo__1', {origin: 'left', distance:'400px'});
