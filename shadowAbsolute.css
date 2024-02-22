@@ -636,12 +636,12 @@
         overflow-x: hidden; 
     }
     
-    html,body
-{
-    width: 100%;
-    background-color: var(--black);
-     
-}
+    body
+    {
+        width: 100%;
+        background-color: var(--black);
+         
+    }
     
     
 
