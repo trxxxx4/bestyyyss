@@ -22,6 +22,11 @@
 
 @media screen and (min-width: 1161px) {
     
+    *{
+        margin: 0px;
+        overflow-x: hidden; 
+        
+    }
 
     h1 {
         font-size: 34px;
@@ -145,14 +150,14 @@
 
         font-weight: 800;
 
-        background-image: url(./sakura.png);
+        background-image: url(https://celes.club/uploads/posts/2023-01/1674565441_celes-club-p-akhegao-oboi-na-telefon-pinterest-4.jpg);
 
 
         color: rgba(225, 225, 225, .01);
 
         background-repeat: repeat;
         -webkit-background-clip: text;
-        animation: vladdy 25s ease-in-out infinite;
+        animation: vladdy 30s ease-in-out infinite;
         text-align: center;
         text-transform: uppercase;
         background-size: 125%;
@@ -388,21 +393,20 @@
         width: 1161px;
         height: 1000px;
         gap: 20px;
+        
+        overflow-y: hidden;
     }
     .photo{
         width: 100%;
         height: 100%;
         transition: 200ms linear;
         position: relative;
-        
-        
-        
-        
-        
-        
 
     }
-    
+    .photo__image{
+        
+        overflow-y: hidden;
+    }
     #photo__1{
         grid-column: 1 / 2;
         grid-row: 1 / 6;
@@ -751,14 +755,14 @@
 
         font-weight: 800;
 
-        background-image: url(./sakura.png);
+        background-image: url(https://celes.club/uploads/posts/2023-01/1674565441_celes-club-p-akhegao-oboi-na-telefon-pinterest-4.jpg);
 
 
         color: rgba(225, 225, 225, .01);
 
         background-repeat: no-repeat;
         -webkit-background-clip: text;
-        animation: vladdy 25s ease-in-out infinite;
+        animation: vladdy 30s ease-in-out infinite;
         text-align: center;
         text-transform: uppercase;
         
@@ -1033,6 +1037,7 @@
         align-items: center;
         flex-direction: column;
         gap: 5px;
+        
     }
 
     
