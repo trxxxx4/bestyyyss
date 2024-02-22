@@ -1,0 +1,318 @@
+@media screen and (min-width: 1161px) {
+    :root {
+        --white: azure;
+        --black: black;
+    }
+
+    * {
+        margin: 0px;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Russo One', sans-serif;
+        color: var(--white);
+        
+        
+    }
+    *::selection{
+        color: #EE6611;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .links__a {
+        font-size: 16px;
+    }
+
+    .body {
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://sun9-28.userapi.com/impg/CD8el_5wIJNN_F1_YHM-6bijNpMARuYuTRX4ug/r7A-2TXCkEE.jpg?size=1280x960&quality=95&sign=24001b3611c99078023cec390926b421&type=album);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(5px);
+        background-position: center;
+
+    }
+
+    .header {
+        width: 100%;
+
+        height: 144px;
+        display: flex;
+        background-image: url(https://gas-kvas.com/uploads/posts/2023-01/1673270223_gas-kvas-com-p-chernie-oboi-s-risunkom-anime-48.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 40%;
+        background-size: cover;
+        justify-content: center;
+
+
+
+    }
+
+    .header__container {
+        width: 1161px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+
+
+    }
+
+    .links__list {
+        flex-direction: row;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .nav {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        height: 70%;
+        justify-content: center;
+
+
+
+    }
+
+    #border__list__button {
+        border-radius: 10px;
+        border: 1px solid var(--white);
+        transition: linear 150ms;
+
+
+    }
+
+    #border__list__button:hover {
+        border-radius: 10px;
+        border: 1px solid var(--white);
+        transition: linear 150ms;
+        background-color: var(--white);
+
+
+    }
+
+    #border__list__button:hover>a {
+        color: var(--black);
+    }
+
+    .links__a:last-child {
+        color: var(--white);
+        transition: 100ms linear;
+
+    }
+
+    .links__a {
+        color: var(--white);
+
+    }
+
+    #underline__list__button {
+        position: relative;
+    }
+
+    #underline__list__button::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0px;
+        height: 1px;
+        background-color: var(--white);
+        transition: 100ms linear;
+
+    }
+
+    #underline__list__button:hover::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: var(--white);
+
+    }
+
+    .links__li {
+        padding: 10px;
+
+
+    }
+
+
+
+    .main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        padding: 150px 0px 0px 0px;
+    }
+
+    .main__container {
+        width: 1161px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .cards__wrap__container {
+        display: flex;
+        width: 100%;
+
+        height: 600px;
+        justify-content: center;
+
+
+    }
+
+    .cards__container {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .main__container__title {
+        padding: 15px;
+
+    }
+
+    /*#main__container__title__h2 {
+        font-size: 100px;
+
+        font-weight: 800;
+
+        background-image: url(https://sun9-71.userapi.com/impg/3vPHlWDs9-MfAhB5xSnKV8uOKZBXGjWKnB-QtA/vVz_zGzOqE0.jpg?size=2560x1920&quality=95&sign=a58afa8060cda78fbc17b402416b2bcd&type=album);
+        margin: 0;
+        
+        color: rgba(225, 225, 225, .01);
+
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        animation: animate 15s ease-in-out infinite;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+
+    @keyframes animate {
+
+        0%,
+        100% {
+            background-position: left top;
+        }
+
+        25% {
+            background-position: right bottom;
+        }
+
+        50% {
+            background-position: left bottom;
+        }
+
+        75% {
+            background-position: right top;
+        }
+    }*/
+
+    .body{
+        height: 100vh;
+        background-color: var(--black);
+    }
+    .card {
+        width: 175px;
+        height: 100%;
+        border: 1px solid var(--black);
+        border-radius: 15px;
+        transition: 300ms linear;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+
+    }
+
+    .card__name__pole {
+        background-color: var(--black);
+        width: 100%;
+        height: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .card:hover {
+        width: 220px;
+        height: 100%;
+        border: 1px solid var(--black);
+        border-radius: 15px;
+    }
+
+
+    #card {
+        background-image: url(https://sun9-12.userapi.com/impg/HY9DHTRH1YHPpFq2W1HvGJ9Q5IG-7Fy6UUtw9w/o2p1mSqj5ao.jpg?size=1280x960&quality=95&sign=cd2c21ce1ebd9d12d0d5fb3bec0b5164&type=album);
+        background-size: cover;
+        background-position-x: 72%;
+    }
+
+    #artem__card {
+        background-image: url(https://sun9-28.userapi.com/impg/cMIJktM-6Rupg8a2HAFWKdhayBMXZrpRXsIZUA/DqlyfkqgKTc.jpg?size=992x992&quality=96&sign=27a858b9534a54ad3e0f71f8c0f3b918&type=album);
+        background-size: cover;
+        background-position-x: 42%;
+    }
+
+    #timur__card {
+        background-image: url(https://sun9-51.userapi.com/impg/z9AtEPNYK9C_SUHUZQXCiUpEMcgrZ6ogrp-f0w/6h05E8M8Sv8.jpg?size=1440x1920&quality=95&sign=ddef1ffd5ca3d55e2fa5b523af5b2a6f&type=album);
+        background-position-x: 55%;
+        background-size: cover;
+    }
+
+    #bagdish__card {
+        background-image: url(https://sun9-45.userapi.com/impg/5-3hIvPWDuAGcUmOwSHtQIpyBWHPriGVYw5nIA/-ayEKKyYI_A.jpg?size=2091x2160&quality=95&sign=2510ab9592f928f3620ffc2882c0c548&type=album);
+        background-size: cover;
+        background-position-x: 60%;
+
+
+
+
+    }
+
+    .footer__r__line {
+        align-self: center;
+        position: absolute;
+        bottom: 5px;
+        left: 85%;
+        font-size: 20px;
+        color: black;
+    }
+
+
+
+    /*Vlad444/**/
+    
+
+    
+
+    
+}
+    
+
+
