@@ -153,7 +153,8 @@
         background-image: url(https://celes.club/uploads/posts/2023-01/1674565441_celes-club-p-akhegao-oboi-na-telefon-pinterest-4.jpg);
 
 
-        color: rgba(225, 225, 225, .01);
+        
+        
 
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -253,9 +254,11 @@
         background-position: center;
         background-repeat: no-repeat;
         background-image: url(./layered-waves-upper.svg);
+        pointer-events: none;
     }
     .waves__upper{
         height: 250px;
+        pointer-events: none;
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -265,6 +268,7 @@
     }
     .waves__lower{
         height: 250px;
+        pointer-events: none;
         width: 100%;
         background-size: cover;
         background-position: center;
