@@ -10,7 +10,7 @@
         list-style-type: none;
         font-family: 'Russo One', sans-serif;
         color: var(--white);
-        
+        overflow-x: hidden;
         
     }
     *::selection{
@@ -245,10 +245,13 @@
         display: flex;
         justify-content: center;
         align-items: end;
+        
 
 
     }
-
+    .cards__container > a {
+        overflow-y: hidden;
+    }
     .card__name__pole {
         background-color: var(--black);
         width: 100%;
@@ -296,17 +299,25 @@
     }
 
     .footer__r__line {
-        align-self: center;
         
-        padding-top: 60px;
-        position: relative;
-        left: 70%;
+        
+        
+        
         font-size: 20px;
+        
         color: black;
     }
 
-
-
+    .footer__r__line__container{
+        width: 1161px;
+        display: flex;
+        justify-content: end;
+        padding: 20px 0px 10px 0px;
+    }
+    footer{
+        width: 100%;
+        justify-content: center;
+    }
     /*Vlad444/**/
     
 
@@ -370,7 +381,7 @@
         background-image: url(https://gas-kvas.com/uploads/posts/2023-01/1673270223_gas-kvas-com-p-chernie-oboi-s-risunkom-anime-48.jpg);
         background-repeat: no-repeat;
         background-position-y: 40%;
-        
+        /*border-radius: 0px 0px 5px 5px;*/
         background-size: cover;
         justify-content: center;
         
@@ -589,13 +600,24 @@
     }
 
     .footer__r__line {
-        align-self: center;
-        position: absolute;
-        right: 10%;
-        bottom: 5px;
+        
+        
+        
+        
         font-size: 20px;
         
         color: black;
+    }
+
+    .footer__r__line__container{
+        width: 90%;
+        display: flex;
+        justify-content: end;
+        padding: 20px 0px 10px 0px;
+    }
+    footer{
+        width: 100%;
+        justify-content: center;
     }
 
 
